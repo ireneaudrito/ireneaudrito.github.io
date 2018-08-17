@@ -1,0 +1,15 @@
+{
+  "address": [
+    "Divulgazione Scientifica",
+    "<a href=\"http://ottobrescienza.it\">Ottobre Scienza</a>,",
+    "<a href=\"https://www.lacasadegliinsegnanti.it\">La casa degli Insegnanti</a>,"
+  ],
+  "contents": [
+    {
+      "title": "Work in Progress",
+      "text": "...",
+      "_template": "section",
+      "items": []
+    }
+  ]
+}

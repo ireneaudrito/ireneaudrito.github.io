@@ -1,0 +1,35 @@
+{
+  "address": [
+    "Ministero della Pubblica Istruzione,",
+    "<a href=\"http://ipiaplana.gov.it\">IPIA Plana</a>,",
+    "Corso Svizzera 185,",
+    "10149 Torino, Italy"
+  ],
+  "home": "Fin dalla giovane età mi affaccio al mondo della didattica con l'attività di guida del Museo d'Arte Preistorica di Pinerolo che mi accompagò per l'intero corso di studi universitari. Con i conseguimento della <i>Laurea in Scienza dei Materiali<i/> mi affaccio al mondo del lavoro iniziando in azienda la mia esperienza da programmatrice java. Pur amando l'ambiente lavorativo della consulenza la mia atavica passione per la didattica mi spinse ad inserirmi, quando la mia esperienza era diventata adeguata e le esigenze aziendali lo consentivano, nel ramo dei corsi di formazione dei neo-assunti riscoprendo nuovamente la mia passione per la didattica. Fu così che dopo otto anni di attività in azienda mi sono licenziata per iniziare ad insegnare in un Liceo Scientifico. Per non abbandonare completamente il settore della tecnologia, che aveva comunque stimolato il mio interesse per tutti gli anni precedenti, ho aperto una partita iva continuando parallelamente per alcuni anni le attività di consulenza o docenza informatica. Con il passaggio in ruolo avvenuto in occasione del concorso del 2012 ho abbandonato definitivamente il settore informatico sotto il profilo lavorativo, dedicandomi a tempo pieno alla didattica.",
+  "asl": [
+    
+        "L'Alternanza Scuola Lavoro rappresenta l'ultima frontiera della didattica contemporanea, diventando con la legge 107 di Renzi punto cardine della riforma della <i>Buona Scuola</i>.<br/>Referente di Istituto dall'A.S 2016/17 presso il Plana per i tre indirizzi Odontotecnico, Ottico e Manutentore Meccanico ed Elettrico; mi sono occupata di redigere il Progetto di Istituto definendo degli obiettivi formativi comuni ai tre Indirizzi, in accordo con le finalità espresse dalla legge, evidenziando altresì le peculiarità dei singoli indirizzi mediante attività specifiche.",        
+"Mi sono inoltre occupata della progettazione e della realizzazione di attività rivolte a studenti di gruppi classe miste volte allo sviluppo delle soft skills individuali. In più occasioni i prodotti/progetti realizzati in queste occasioni hanno comportato la partecipazione della scuola a competizioni e alla conseguente vittoria di premi."
+     
+  ],
+  "news": [
+    {
+      "title":    "Strumenti Operativi per una Nuova Didattica",
+      "subtitle": "Guida per docenti edita dalla casa editrice SEI di cui io sono co-autrice. Mi sono occupata di redigere la sezione dedicata all'ASL.",
+      "link":     "https://seieditrice.com/fare-scuola/",
+      "type":     "Event",
+      "_date":    "18.01.01"
+    }
+  ],
+  "apprendistato": [
+        "A luglio 2018 ho portato a termine con successo la prima esperieza di Apprendistato di Primo Livello dell'Istituto IPIA PLANA. Uno studente del quinto anno dell'indirizzo Odontotecnico si è infatti diplomato con ottimi risultati dopo aver effettuato parte del suo percorso formativo in un'Azienda leader del settore Odontotecnico.<br/>Io mi sono Occupata sia dell'individuazione dell'Azienda che della selezione dello studente che di tutto l'aspetto burocratico. Ho inoltre seguito lo studente durante l'intero periodo di apprendistato occupandomi del suo andamento didattico e di sincronizzare opportunamente la formazione scolastica con quella aziendale.<br/>A conclusione dell'esame di maturità lo studente è stato assunto direttamente dall'azienda con un contratto di apprendistato professionalizzante."
+      ],
+  "teaching": [
+    {
+      "title": "Didattica Laboratoriale",
+      "text": [
+        "<ul><li>2017/18. <a href=\"http://moodle.lacasadegliinsegnanti.it/pluginfile.php/10144/mod_resource/content/0/LABORATORI_ITINERANTI%20DI%20FISICA.pdf\" target=\"_blank\"><i>Laboratori Itineranti.</i></a> Riconosciuto dall'USR, catalogo CESEDI, organizzato dalla Casa degli Insegnanti.</li><li>2016/17. <i>Laboratori Itineranti.</i> catalogo CESEDI, organizzato dalla Casa degli Insegnanti.</li>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "address": [
+    "Ministero della Pubblica Istruzione,",
+    "<a href=\"http://ipiaplana.gov.it\">IPIA Plana</a>,",
+    "Corso Svizzera 185,",
+    "10149 Torino, Italy"
+  ],
+  "bio": "I started programming in <i>Turbo Pascal</i> when I was 7 years old, and since then I have always been fond of informatics and mathematics. During high school, I competed in the <i>International Olympiads in Informatics</i> and in the Italian final selection for the <i>International Olympiads in Mathematics</i>. I then tried to combine these two interests in my bachelor and master studies, opting for a mathematical logic degree with computer science optional courses. After a PhD in mathematical logic (set theory), I finally switched to full-time computer science research.<br><br>As a post-doc in Pisa and Torino, I am working on languages for distributed computing, self-organising systems, games on graphs, speed-up of dynamic programming, compressed data structures and models of human sound perception. Meanwhile, I am teaching the <i>Object-Oriented Programming</i> course in Vercelli, and contributing to the organisation of the <i>Italian Olympiads in Informatics</i>.",
+  "topics": [
+    {
+      "title":    "ASL",
+      "abstract": [
+        "L'Alternanza Scuola Lavoro rappresenta l'ultima frontiera della didattica contemporanea, diventando con la legge 107 di Renzi punto cardine della riforma della <i>Buona Scuola</i>.Referente di Istituto dall'A.S 2016/17 presso il Plana per i tre indirizzi Odontotecnico, Ottico e Manutentore Meccanico ed Elettrico; mi sono occupata di redigere il Progetto di Istituto definendo degli obiettivi formativi comuni ai tre Indirizzi, in accordo con le finalità espresse dalla legge, evidenziando altresì le peculiarità dei singoli indirizzi mediante attività specifiche.",        
+"Mi sono inoltre occupata della progettazione e della realizzazione di attività rivolte a studenti di gruppi classe miste volte allo sviluppo delle soft skills individuali. In più occasioni i prodotti/progetti realizzati in queste occasioni hanno comportato la partecipazione della scuola a competizioni e alla conseguente vittoria di premi."
+      ]
+    },
+    {
+      "title":    "Algorithms",
+      "abstract": [
+        "[Work in Progress]",
+        "My research interests in this topic encompass:<ul><li>dynamic programming and speed-up techniques; [A1]</li><li>parity games solving and related graph algorithms.</li></ul>"
+      ]
+    },
+    {
+      "title":    "Logic and Set Theory",
+      "abstract": [
+        "[Work in Progress]",
+        "My research interests in this topic encompass:<ul><li>the search for natural axioms limiting the independence phenomenon; [LST1]</li><li>large cardinal elementary embeddings and forcing. [LST2]</li></ul>"
+      ]
+    },
+    {
+      "title":    "Didactics",
+      "abstract": [
+        "[Work in Progress]",
+        "My interests in this topic encompass:<ul><li>on-line and on-site trainings on olympic and recreational informatics; [D1]</li><li>interactive learning of olympic and recreational mathematics. [D2]</li></ul>"
+      ]
+    }
+  ],
+  "types": ["Journal Papers", "Proceedings", "Books", "Book Chapters", "Lecture Notes", "Submitted Preprints"],
+  "publications": [
+    {
+      "title":    "A Higher-order Calculus of Computational Fields",
+      "authors":  "G. Audrito, M. Viroli, F. Damiani, D. Pianini, J. Beal",
+      "journal":  "ACM Transactions on Computational Logic, accepted with minor revisions",
+      "year":     2018,
+      "link":     "arXiv:1610.08116",
+      "topic":    "Aggregate Computing",
+      "type":     "Journal Papers",
+      "_top":     2,
+      "_date":    "18.10.12",
+      "abstract": [
+        "The complexity of large-scale distributed systems, particularly when deployed in physical space, calls for new mechanisms to address composability and reusability of collective adaptive behaviour. Computational fields have been proposed as an effective abstraction to fill the gap between the macro-level of such systems (specifying a system’s collective behaviour) and the micro-level (individual devices’ actions of computation and interaction to implement that collective specification), thereby providing a basis to better facilitate the engineering of collective APIs and complex systems at higher levels of abstraction. This paper proposes a full formal foundation for field computations, in terms of a core (higher-order) calculus of computational fields containing a few key syntactic constructs, and equipped with typing, denotational and operational semantics. Critically, this allows formal establishment of a link between the micro- and macro-levels of collective adaptive systems, by a result of computational adequacy and abstraction for the (aggregate) denotational semantics with respect to the (per-device) operational semantics."
+      ]
+    },
+    {
+      "title":    "Optimal Single-Path Information Propagation in Gradient-based Algorithms",
+      "authors":  "G. Audrito, F. Damiani, M. Viroli",
+      "journal":  "Science of Computer Programming",
+      "year":     2018,
+      "link":     "10.1016/j.scico.2018.06.002",
+      "topic":    "Aggregate Computing",
+      "type":     "Journal Papers",
+      "_top":     1,
+      "_date":    "18.06.20",
+      "abstract": [
+        "Scenarios like wireless network networks, Internet of Things, and pervasive computing, promote full distribution of computation as well as opportunistic, peer-to-peer interactions between devices spread in the environment. In this context, computing estimated distances between devices in the network is a key component, commonly referred to as the gradient self-organisation pattern: it is frequently used to broadcast information, forecast pointwise events, as carrier for distributed sensing, and as combinator for higher-level spatial structures. However, computing gradients is very problematic in an environment affected by mutability in the position and working frequency of devices: existing algorithms fail in reaching adequate trade offs between accuracy and reaction speed to environment changes.",
+        "We propose <i>BIS</i> (Bounded Information Speed) gradient, a fully-distributed algorithm which uses time information to achieve a smooth and predictable reaction speed, and prove it is optimal across algorithms following a single-path-communication strategy to spread information. We empirically evaluate <i>BIS</i> gradient and compare it with other approaches, showing that <i>BIS</i> achieves the best accuracy while keeping smoothness under control, and accordingly enables for improved performance when used as building block in more complex algorithms for creating spatial structures and performing distributed collection of data."
+      ]
+    },
+    {
+      "title":    "Engineering Resilient Collective Adaptive Systems by Self-Stabilisation",
+      "authors":  "M. Viroli, G. Audrito, J. Beal, F. Damiani, D. Pianini",
+      "journal":  "ACM Transactions on Modeling and Computer Simulation",
+      "year":     2018,
+      "link":     "10.1145/3177774",
+      "topic":    "Aggregate Computing",
+      "type":     "Journal Papers",
+      "_top":     3,
+      "_date":    "18.03.12",
+      "abstract": [
+        "Collective adaptive systems are an emerging class of networked computational systems, particularly suited in application domains such as smart cities, complex sensor networks, and the Internet of Things. These systems tend to feature large scale, heterogeneity of communication model (including opportunistic peer-to-peer wireless interaction), and require inherent self-adaptiveness properties to address unforeseen changes in operating conditions. In this context, it is extremely difficult (if not seemingly intractable) to engineer reusable pieces of distributed behaviour so as to make them provably correct and smoothly composable.",
+        "Building on the field calculus, a computational model (and associated toolchain) capturing the notion of aggregate network-level computation, we address this problem with an engineering methodology coupling formal theory and computer simulation. On the one hand, functional properties are addressed by identifying the largest-to-date field calculus fragment generating self-stabilising behaviour, guaranteed to eventually attain a correct and stable final state despite any transient perturbation in state or topology, and including highly reusable building blocks for information spreading, aggregation, and time evolution. On the other hand, dynamical properties are addressed by simulation, empirically evaluating the different performances that can be obtained by switching between implementations of building blocks with provably equivalent functional properties. Overall, our methodology sheds light on how to identify core building blocks of collective behaviour, and how to select implementations that improve system performance while leaving overall system function and resiliency properties unchanged."
+      ]
+    },
+    {
+      "title":    "Maximizing the Overall End-User Satisfaction of Data Broadcast in Wireless Mesh Networks",
+      "authors":  "G. Audrito, A. A. Bertossi, A. Navarra, C. M. Pinotti",
+      "journal":  "Journal of Discrete Algorithms",
+      "year":     2017,
+      "link":     "10.1016/j.jda.2017.07.002",
+      "topic":    "Algorithms",
+      "type":     "Journal Papers",
+      "_top":     1,
+      "_date":    "17.07.01",
+      "abstract": [
+        "We study the problem of broadcasting a common, possibly large, content into a wireless mesh network consisting of $N$ end-users and of one or multiple access points that act as gateways to Internet. Each end-user is characterized by a maximum possible reception rate that depends on the distance and on the interface used to communicate with the associated access point. The end-user satisfaction is proportional to the actual rate received. The overall end-user satisfaction is the sum of the satisfaction of each end-user. Our goal is to maximize the overall end-user satisfaction under the constraint that the access points can retransmit at different rates the same common content at most $K$ times.",
+        "We show that the problem can be solved by serving the end-users according to a suitable $K$ segmentation, which is a $K$ partition of the end-users that preserves a specific end-user order. When the access points and the end-users have a unique interface, the optimal segmentation can be found in $O(N(K + \\log ⁡N))$ time by exploiting the convex Monge property of the satisfaction function. When both access points and end-users are equipped with multiple interfaces, the problem becomes computationally intractable, even for a single access point. Polynomial time algorithms are then devised for optimally solving some meaningful particular cases."
+      ]
+    },
+    {
+      "title":    "Absoluteness via Resurrection",
+      "authors":  "G. Audrito, M. Viale",
+      "journal":  "Journal of Mathematical Logic",
+      "year":     2017,
+      "link":     "10.1142/S0219061317500052",
+      "topic":    "Logic and Set Theory",
+      "type":     "Journal Papers",
+      "_top":     1,
+      "_date":    "17.05.11",
+      "abstract": [
+        "The resurrection axioms are forcing axioms introduced recently by Hamkins and Johnstone, developing on ideas of Chalons and Veličković. We introduce a stronger form of resurrection axioms (the iterated resurrection axioms $RA_\\alpha(\\Gamma)$ for a class of forcings $\\Gamma$ and a given ordinal $\\alpha$), and show that $RA_\\omega(\\Gamma)$ implies generic absoluteness for the first-order theory of $H_{\\gamma^+}$ with respect to forcings in $\\Gamma$ preserving the axiom, where $\\gamma = \\gamma_\\Gamma$ is a cardinal which depends on $\\Gamma$ ($\\gamma_\\Gamma = \\omega_1$ if $\\Gamma$ is any among the classes of countably closed, proper, semiproper, stationary set preserving forcings).",
+        "We also prove that the consistency strength of these axioms is below that of a Mahlo cardinal for most forcing classes, and below that of a stationary limit of supercompact cardinals for the class of stationary set preserving posets. Moreover, we outline that simultaneous generic absoluteness for $H_{\\gamma_0^+}$ with respect to $\\Gamma_0$ and for $H_{\\gamma_1^+}$ with respect to $\\Gamma_1$ with $\\gamma_0 = \\gamma_{\\Gamma_0} \\neq \\gamma_{\\Gamma_1} = \\gamma_1$ is in principle possible, and we present several natural models of the Morse–Kelley set theory where this phenomenon occurs (even for all $H_\\gamma$ simultaneously). Finally, we compare the iterated resurrection axioms (and the generic absoluteness results we can draw from them) with a variety of other forcing axioms, and also with the generic absoluteness results by Woodin and the second author."
+      ]
+    },
+    {
+      "title":    "Generic Large Cardinals and Systems of Filters",
+      "authors":  "G. Audrito, S. Steila",
+      "journal":  "Journal of Symbolic Logic",
+      "year":     2017,
+      "link":     "10.1017/jsl.2017.27",
+      "topic":    "Logic and Set Theory",
+      "type":     "Journal Papers",
+      "_top":     2,
+      "_date":    "17.09.08",
+      "abstract": [
+        "We introduce the notion of $\\mathcal{C}$-system of filters, generalizing the standard definitions of both extenders and towers of normal ideals. This provides a framework to develop the theory of extenders and towers in a more general and concise way. In this framework we investigate the topic of definability of generic large cardinals properties."
+      ]
+    },
+    {
+      "title":    "Enumeration of the adjunctive hierarchy of hereditarily finite sets",
+      "authors":  "G. Audrito, A. I. Tomescu, S. Wagner",
+      "journal":  "Journal of Logic and Computation",
+      "year":     2015,
+      "link":     "10.1093/logcom/exu062",
+      "topic":    "Logic and Set Theory",
+      "type":     "Journal Papers",
+      "_date":    "15.06.01",
+      "abstract": [
+        "Hereditarily finite sets (sets which are finite and have only hereditarily finite sets as members) are basic mathematical and computational objects, and also stand at the basis of some programming languages. We solve an open problem proposed by Kirby in 2008 concerning a recurrence relation for the cardinality  anan  of the $n$-th level of the adjunctive hierarchy of hereditarily finite sets; in this hierarchy, new sets are formed by the addition of a new single element drawn from the already existing sets to an already existing set. We also show that our results can be generalized to sets with atoms, or can be refined by rank, cardinality, or by the maximum level from where the new adjoined element is drawn.",
+        "We also show that  a_n  satisfies the asymptotic formula $a_n= C^{2^n} + O(C^{2^{n−1}})$, for a constant  $C \\simeq 1.3399$, which is a too fast asymptotic growth for practical purposes. We thus propose a very natural variant of the adjunctive hierarchy, whose asymptotic behaviour we prove to be  $\\Theta(2^n)$."
+      ]
+    },
+    {
+      "title":    "On distributed runtime verification by aggregate computing",
+      "authors":  "G. Audrito, F. Damiani, V. Stolz, M. Viroli",
+      "journal":  "To appear on VORTEX workshop, ECOOP-ISSTA conference",
+      "year":     2018,
+      "link":     "",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "18.07.17",
+      "abstract": [
+        "Runtime verification is a computing analysis paradigm based on observing a system at runtime (to check its expected behavior) by means of monitors generated from formal specifications. Distributed runtime verification is runtime verification in connection with distributed systems: it comprises both monitoring of distributed systems and using distributed systems for monitoring. Aggregate computing is a programming paradigm based on a reference computing machine that is the aggregate collection of devices that cooperatively carry out a computational process: the details of behaviour, position and number of devices are largely abstracted away, to be replaced with a space-filling computational environment. In this position paper we argue, by means of simple examples, that aggregate computing is particularly well suited for implementing  distributed monitors. Our aim is to foster further research on  how to  generate aggregate computing monitors from suitable formal specifications."
+      ]
+    },
+    {
+      "title":    "Fostering Informatics Education through Teams Olympiad",
+      "authors":  "N. Amaroli, G. Audrito, L. Laura",
+      "journal":  "To appear on Olympiads in Informatics",
+      "year":     2018,
+      "link":     "",
+      "topic":    "Didactics",
+      "type":     "Proceedings",
+      "_date":    "18.09.05",
+      "abstract": [
+        "Even though the International Olympiad in Informatics directly involves a restricted number of pupils from each country, one of its primary goals is stimulating interest in computer science and information technology over the whole younger segment of the world’s population. In several countries, this aim has to be accomplished without an active intervention of the Ministry of Education on school programs, relying on the efforts of small devoted organizations. In this context, promoting the involvement of a large number of school teachers may be as crucial as difficult to achieve.",
+        "Following a 9-year experience of teams competitions in Italy, recently shared with other European countries, we argue that teams Olympiad may be an effective tool for widening the participation of high-school students and teachers, synergistically cooperating with existing individual competitions. On the one hand, teams contests foster peer education, encouraging talented students to help training fellows. On the other hand, these competitions can be more appealing both for average students, valuing group membership more than personal accomplishments, and most importantly, teachers: team achievements are more recognizably linked with the overall school or teacher performance than solitary excellences, resulting in increased returns rewarding the involved subjects."
+      ]
+    },
+    {
+      "title":    "Space-Time Universality of Field Calculus",
+      "authors":  "G. Audrito, J. Beal, F. Damiani, M. Viroli",
+      "journal":  "International Conference on Coordination Languages and Models",
+      "year":     2018,
+      "link":     "10.1007/978-3-319-92408-3_1",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "18.06.18",
+      "abstract": [
+        "Recent work in the area of coordination models and collective adaptive systems promotes a view of distributed computations as functional blocks manipulating data structures spread over space and evolving over time. In this paper, we address expressiveness issues of such computations, and specifically focus on the <i>field calculus</i>, a prominent emerging language in this context. Based on the classical notion of <i>event structure</i>, we introduce the <i>cone Turing machine</i> as a ground for studying computability issues, and first use it to prove that field calculus is <i>space-time universal</i>. We then observe that, in the most general case, field calculus computations can be rather inefficient in the size of messages exchanged, but this can be remedied by an encoding to nearly similar computations with slower information speed. We capture this concept by a notion of <i>delayed space-time universality</i>, which we prove to hold for the set of message-efficient algorithms expressible by field calculus. As a corollary, it is derived that field calculus can implement with message-size efficiency all self-stabilising distributed algorithms."
+      ]
+    },
+    {
+      "title":    "From Field-Based Coordination to Aggregate Computing",
+      "authors":  "M. Viroli, J. Beal, F. Damiani, G. Audrito, R. Casadei, D. Pianini",
+      "journal":  "International Conference on Coordination Languages and Models",
+      "year":     2018,
+      "link":     "10.1007/978-3-319-92408-3_12",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "18.06.19",
+      "abstract": [
+        "Aggregate computing is an emerging approach to the engineering of complex coordination for distributed systems, based on viewing system interactions in terms of information propagating through collectives of devices, rather than in terms of individual devices and their interaction with their peers and environment. The foundation of this approach is the distillation of a number of prior approaches, both formal and pragmatic, proposed under the umbrella of field-based coordination, and culminating into the <i>field calculus</i>, a functional programming model for the specification and composition of collective behaviours with equivalent local and aggregate semantics. This foundation has been elaborated into a layered approach to engineering coordination of complex distributed systems, building up to pragmatic applications through intermediate layers encompassing reusable libraries of provably resilient program components. In this survey, we trace the development and antecedents of field calculus, review the current state of aggregate computing theory and practice, and discuss a roadmap of current research directions that we believe can significantly impact the agenda of coordination models and languages."
+      ]
+    },
+    {
+      "title":    "Aggregate Graph Statistics",
+      "authors":  "G. Audrito, F. Damiani, M. Viroli",
+      "journal":  "ALP4IoT workshop, iFM conference",
+      "year":     2017,
+      "link":     "10.4204/EPTCS.264.2",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "17.09.18",
+      "abstract": [
+        "Collecting statistic from graph-based data is an increasingly studied topic in the data mining community. We argue that these statistics have great value as well in dynamic IoT contexts: they can support complex computational activities involving distributed coordination and provision of situation recognition. We show that the <i>HyperANF</i> algorithm for calculating the neighbourhood function of vertices of a graph naturally allows for a fully distributed and asynchronous implementation, thanks to a mapping to the field calculus, a distribution model proposed for collective adaptive systems. This mapping gives evidence that the field calculus framework is well-suited to accommodate massively parallel computations over graphs. Furthermore, it provides a new “self-stabilising” building block which can be used in aggregate computing in several contexts, there including improved leader election or network vulnerabilities detection."
+      ]
+    },
+    {
+      "title":    "Resilient Blocks for Summarising Distributed Data",
+      "authors":  "G. Audrito, S. Bergamini",
+      "journal":  "ALP4IoT workshop, iFM conference",
+      "year":     2017,
+      "link":     "10.4204/EPTCS.264.3",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "17.09.18",
+      "abstract": [
+        "Summarising distributed data is a central routine for parallel programming, lying at the core of widely used frameworks such as the map/reduce paradigm. In the IoT context it is even more crucial, being a privileged mean to allow long-range interactions: in fact, summarising is needed to avoid data explosion in each computational unit.",
+        "We introduce a new algorithm for dynamic summarising of distributed data, <i>weighted multi-path</i>, improving over the state-of-the-art multi-path algorithm. We validate the new algorithm in an archetypal scenario, taking into account sources of volatility of many sorts and comparing it to other existing implementations. We thus show that weighted multi-path retains adequate accuracy even in high-variability scenarios where the other algorithms are diverging significantly from the correct values."
+      ]
+    },
+    {
+      "title":    "Compositional Blocks for Optimal Self-Healing Gradients",
+      "authors":  "G. Audrito, R. Casadei, F. Damiani, M. Viroli",
+      "journal":  "IEEE International Conference on Self-Adaptive and Self-Organizing Systems",
+      "year":     2017,
+      "link":     "10.1109/SASO.2017.18",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "17.09.20",
+      "abstract": [
+        "With the constant increase in the number of interconnected devices in today networks, and the high demand of adaptiveness, more and more computations can be designed according to self-organisation principles. In this context, a key building block for large-scale system coordination, called gradient, is used to estimate distances in a fully-distributed way: it is the basis for a vast variety of higher level patterns including information broadcast, events forecasting, distributed sensing, and so on. However, computing gradients is very problematic in mobile environments: the fastest self-healing gradient conceived so far (called <i>BIS</i>) achieves a reaction speed proportional to the single-path speed of information in the network. In this paper we introduce a new gradient algorithm, <i>SVD</i> (Stale Values Detection) gradient, which uses broadcasts to reach a reaction speed that is equal to the multi-path speed of information, namely, the fastest speed possibly achievable by network algorithms. We then combine <i>SVD</i> with other blocks (metric correction, smooth filtering, <i>BIS</i> gradient, information damping) proposing a composed block called <i>ULT</i>(imate) gradient. We evaluate the resulting algorithm and compare it with other approaches, showing it scores best both on accuracy and smoothness while keeping communication cost under control."
+      ]
+    },
+    {
+      "title":    "Optimally-Self-Healing Distributed Gradient Structures through Bounded Information Speed",
+      "authors":  "G. Audrito, F. Damiani, M. Viroli",
+      "journal":  "International Conference on Coordination Languages and Models",
+      "year":     2017,
+      "link":     "10.1007/978-3-319-59746-1_4",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "17.05.27",
+      "abstract": [
+        "With the constant increase in the number of interconnected devices in today networks, more and more computations can be described by spatial computing abstractions. In this context, distances can be estimated in a fully-distributed way by the so-called gradient self-organisation pattern: it is a basic building block also for large-scale system coordination, frequently used to broadcast information, forecast pointwise events, as carrier for distributed sensing, and as combinator for higher-level spatial structures. However, computing gradients is very problematic in a mutable environment: existing algorithms fail in reaching adequate trade offs between accuracy and reaction speed to environment changes.",
+        "In this paper we introduce a new gradient algorithm, <i>BIS</i> (Bounded Information Speed) gradient, which uses time information to achieve a smooth and predictable reaction speed, which is proved optimal for algorithms following a single-path-communication strategy. Following a proposed methodology for empirical evaluation of performance of spatial computing algorithms, we evaluate <i>BIS</i> gradient and compare it with other approaches. We show that <i>BIS</i> achieves the best accuracy while keeping smoothness under control."
+      ]
+    },
+    {
+      "title":    "Run-time Management of Computation Domains in Field Calculus",
+      "authors":  "G. Audrito, F. Damiani, M. Viroli, R. Casadei",
+      "journal":  "IEEE International Workshops on Foundations and Applications of Self* Systems",
+      "year":     2016,
+      "link":     "10.1109/FAS-W.2016.50",
+      "topic":    "Aggregate Computing",
+      "type":     "Proceedings",
+      "_date":    "16.09.14",
+      "abstract": [
+        "The field calculus is proposed as a foundational model for collective adaptive systems, capturing in a tiny language essential aspects of distributed interaction, restriction and evolution, as well as providing ground for engineering resiliency properties. In this paper, we investigate the interplay between interaction and restriction: known as \"domain alignment\" in field calculus, it is extremely powerful but can cause subtle bugs when not handled properly. We propose a disciplined programming approach based on the interplay between a weak and a strong version of alignment, mixing static and dynamic checks. This is exemplified to design a new reusable component dynamically updating the strategy by which a device can extract information from neighbours, which find applications, for instance, in the on-the-fly evolution of metrics in smart mobility applications."
+      ]
+    },
+    {
+      "title":    "Optimal Skewed Allocation on Multiple Channels for Broadcast in Smart Cities",
+      "authors":  "G. Audrito, D. Diodati, C. M. Pinotti",
+      "journal":  "IEEE International Conference on Smart Computing",
+      "year":     2016,
+      "link":     "10.1109/SMARTCOMP.2016.7501711",
+      "topic":    "Algorithms",
+      "type":     "Proceedings",
+      "_date":    "16.05.19",
+      "abstract": [
+        "We consider the problem of allocating $N$ uniform data to $K$ transmission channels so as the average Expected Delay (AED) is minimized. This problem arises in designing efficient data-diffusion broadcast algorithms in a smart environment. We show that the basic dynamic rogramming algorithm for solving the uniform pallocation problem can be spedup up to $O(NK)$ time by applying an optimal algorithm to find the row-minima of totally monotone matrices. Such a new algorithm is always faster than the best previously known algorithm for the uniform allocation problem that runs in $O(NK \\log N)$. Moreover, it is computationally optimal for the uniform allocation of up to $N$ data and $K$ channels. We then reduce the largest allocation problem, i.e., the subproblem with exactly $N$ data and $K$ channels, to the problem of finding a minimum weight $K$-link path in a particular directed acyclic graph. We also present two heuristics and we show by extended simulations their effectiveness in practical scenarios. Both the $K$-link path algorithm and the heuristics are much faster than $O(NK)$. We then compare the behaviours of our algorithms on the online version of the allocation problem in which new single items are inserted for broadcast."
+      ]
+    },
+    {
+      "title":    "The role of contests in changing informatics education, a local view",
+      "authors":  "G. Audrito, G. B. Demo, E. Giovannetti",
+      "journal":  "Olympiads in Informatics",
+      "year":     2012,
+      "link":     "",
+      "topic":    "Didactics",
+      "type":     "Proceedings",
+      "_date":    "12.08.01",
+      "abstract": [
+        "Changing the teaching of informatics in secondary (and primary) education is in many countries difficult to achieve, owing to several reasons: the natural tendency of institutions and people to stick to well-established practices, a distorted view of informatics prevailing in society and among those who take the decisions, the specific fact that in several school systems the teaching of informatics is largely committed to teachers of other scientific disciplines. We describe the Italian situation and our experience in Turin where we have organised training stages for the Olympiad in Informatics and supported the organisation of other informatics contests. On its basis we argue how the different kinds of competition can help to change informatics education in Italy, by making problem solving and programming play a central role."
+      ]
+    },
+    {
+      "title":    "Le olimpiadi di informatica in Italia",
+      "authors":  "G. Audrito, R. Rizzi",
+      "journal":  "Vedere la matematica... alla maniera di Mimmo Luminati, ETS-Pisa",
+      "year":     2015,
+      "link":     "ISBN:9788846742797",
+      "topic":    "Didactics",
+      "type":     "Book Chapters",
+      "_top":     1,
+      "_date":    "15.07.01",
+      "abstract": [
+        "Le Olimpiadi Italiane di Informatica (OII) sono una realtà nazionale e internazionale che coinvolge studenti e docenti delle scuole superiori e non solo, e ruota intorno ad alcune competizioni di problem-solving che si svolgono a più livelli. Uno sguardo disattento potrebbe quindi concludere che questa manifestazione coinvolga un numero troppo esiguo di persone (proprio in quanto competizione) per avere un impatto dal punto di vista educativo, e che sia svolta a un livello troppo prematuro (data la giovane età dei partecipanti) per avere un impatto dal punto di vista del progresso scientifico. Tuttavia, entrambe queste conclusioni sono inesatte e trascurano molti aspetti del progetto che trascendono le singole gare di cui è composto. Come approfondiremo meglio più avanti, le OII sono infatti un’occasione di ritrovo oltre che una competizione; e come tale hanno avuto il ruolo di mettere in rete scuole del territorio e docenti, promuovendo e dando visibilità all’entusiasmo degli insegnanti che in questo modo hanno trovato occasioni pubbliche per confrontarsi con ragazzi e colleghi in altre scuole e nelle università. Ognuno dei docenti e dei ragazzi che ha partecipato alle OII ha fatto ritorno a casa con un nuovo bagaglio di esperienze e contatti, ha esteso gli effetti di questa manifestazione nel proprio territorio a persone che non vi hanno partecipato direttamente promuovendo così, in modo trasversale ma sempre guardando ai giovani, le conoscenze informatiche così importanti ai giorni nostri. D'altro lato, evidenze statistiche mostrano come buone prestazioni a livello di problem-solving (e in particolare di Olimpiadi di Informatica) si traducano, anni dopo, in maggiori probabilità di lavorare in campo informatico sia nella ricerca pubblica che in aziende private, contribuendo in questo modo allo sviluppo della materia. Ma il ruolo delle Olimpiadi non si ferma all’individuazione delle eccellenze, fornendo visibilità, borse di studio o contatti. Quello che è molto più importante, e che genuinamente caratterizza le OII, è che esse forniscono a ragazzi dotati di talento una possibilità di raggiungere consapevolezza dei propri interessi e delle proprie capacità, fornendo così una motivazione e occasioni di miglioramento che difficilmente potrebbero verificarsi lungo un programma didattico uniformato, che spesso non li spinge a superare i propri limiti. In questo articolo ci proponiamo di presentare le Olimpiadi di Informatica in Italia descrivendone la struttura, illustrando il tipo di competenze coinvolte e riportando testimonianze dirette di docenti e studenti che hanno attivamente partecipato a questo progetto, con l’attenzione volta soprattutto a riferimenti ed esempi che possano essere utili per chi si avvicina alle OII per la prima volta."
+      ]
+    },
+    {
+      "title":    "Esplorazione dei solidi e oltre: fare geometria con gli Zometool",
+      "authors":  "G. Audrito, U. Battisti, M. Borsero, A. Raffero, S. Tassoni, L. Testa",
+      "journal":  "Ledizioni",
+      "year":     2016,
+      "link":     "ISBN:9788867054114",
+      "topic":    "Didactics",
+      "type":     "Books",
+      "_top":     2,
+      "_date":    "16.01.01",
+      "abstract": [
+        "Nonostante sia presente nelle Indicazioni Nazionali, l’insegnamento della geometria solida è spesso messo in secondo piano nella comune pratica didattica per le sue difficoltà concettuali e gli ampi prerequisiti teorici. Questo volume vuole offrire una proposta di didattica costruttiva della geometria solida fondata sull’uso degli <i>ZOMETOOL</i>, un innovativo strumento didattico adatto a costruire figure sia bidimensionali che tridimensionali.",
+        "La metodologia adottata è quella del laboratorio di matematica, guidato da schede, in modo da stimolare la discussione tra gli studenti nei singoli gruppi, puntando sia sulla leva motivazionale data dalla scoperta, sia sulla costruzione autonoma dei significati matematici.",
+        "Nel volume sono presentate le attività proposte negli anni scolastici 2013/14 e 2014/15 in diverse scuole secondarie di secondo grado della provincia di Torino e sono analizzati i risultati degli studenti e le criticità emerse in corso d’opera. Tale lavoro si configura dunque come strumento per guidare l’insegnante nella realizzazione in classe delle attività e per fornire suggerimenti utili alla progettazione di nuovi percorsi di apprendimento."
+      ]
+    },
+    {
+      "title":    "Dispense di matematica olimpionica",
+      "authors":  "A. Astolfi, G. Audrito, A. Carignano, F. Tanturri",
+      "journal":  "Quaderni di matematica dell’associazione subalpina Mathesis",
+      "year":     2010,
+      "link":     "",
+      "topic":    "Didactics",
+      "type":     "Books",
+      "_date":    "10.01.01",
+      "abstract": [
+        "Questo libro è stato pensato come supporto per lo studente che intende prepararsi per le olimpiadi della matematica, e cerca una solida base di teoria prima di affrontare i problemi proposti. Resta comunque accertato il fatto che, per ottenere buoni risultati alle olimpiadi, sia assolutamente necessario allenarsi con molti esercizi, per creare un occhio attento a discernere le diverse tipologie e strategie risolutive. Gli argomenti teorici richiesti dalle olimpiadi della matematica sono, in buona parte, al di fuori dell’attuale programma ministeriale; eppure siamo convinti che possano essere di grande aiuto per lo sviluppo di una mentalità scientifica, deduttiva e creativa. Abbiamo quindi cercato di rivolgere questo libro ad un pubblico di studenti il più ampio possibile, conservando un’impostazione rigorosa ma rinunciando ad ogni inutile formalismo ed evidenziando in particolar modo gli aspetti applicativi. Per iniziare un allenamento di tipo pratico, abbiamo inserito alcuni esercizi alla fine di ogni capitolo, di cui una parte con soluzione proposta nella parte finale del fascicolo; molti altri se ne possono trovare in [2], [3] e [4], raccolte di problemi proposti effettivamente in sede olimpica. Abbiamo scelto, alla fine di ogni capitolo, di segnalare alcuni esercizi presi da queste fonti, citando semplicemente la gara e il numero di esercizio corrispondente (nei riferimenti a [4]), o il codice numerico (nei riferimenti a [2] o [3]). Inoltre, tra le novità della nuova edizione, ogni capitolo si introduce con un problema, in modo tale da far ambientare subito il lettore con l’argomento, e accontentare i più desiderosi di passare subito alla pratica. Infine abbiamo inserito, per chi fosse particolarmente interessato e volesse spingersi un po’ oltre quelle che possono essere le ambizioni di base, alcuni paragrafi di approfondimento, nei quali vengono introdotti e affrontati alcuni argomenti più impegnativi e meno comuni, ma che possono comunque risultare utili nella risoluzione di problemi olimpionici, in particolare nelle fasi più avanzate della gara. Buona lettura — e buone olimpiadi — a tutti!"
+      ]
+    },
+    {
+      "title":    "Real-Time Guarantees of Aggregate Computations with the Field Calculus",
+      "authors":  "G. Audrito, F. Damiani, M. Viroli, E. Bini",
+      "journal":  "Submitted to EEE Real-Time Systems Symposium",
+      "year":     2018,
+      "link":     "",
+      "topic":    "Aggregate Computing",
+      "type":     "Submitted Preprints",
+      "_date":    "18.10.18",
+      "abstract": [
+        "As the density of sensing/computation/actuation nodes is increasing, it becomes more and more feasible and useful to think at an entire network of physical devices as a single, continuous space-time computing machine.  The emergent behaviour of the whole software system running on top is then induced by local computations deployed within each node and by the resulting information diffusion dynamics. A relevant example of this distribution model is given by <i>aggregate computing</i> and its companion language <i>field calculus</i>, a minimal set of purely functional constructs used to manipulate distributed data structures evolving over space and time, and resulting in robustness to changes.",
+        "In this paper, we study real-time characteristics of aggregate computing and field calculus, providing an analytic result linking the quality of the output of an aggregate computation to the amount of computing resources dedicated. We apply this procedure to the archetypical and widely-used case of aggregate computation called <i>gradient</i>: a fully-distributed estimation of distances over a metric space by a spanning tree. The resulting error bounds are then exploited for network design, suggesting an optimal density value taking broadcast interferences into account. Finally, an empirical evaluation of the proposed algorithms is performed validating the theoretical results and showing that the average performance is much better than the worst-case bounds previously obtained."
+      ]
+    },
+    {
+      "title":    "Iterated forcing, category forcings, generic ultrapowers, generic absoluteness",
+      "authors":  "M. Viale, G. Audrito, S. Steila, R. Carroy",
+      "journal":  "Submitted to Perspectives in Logic",
+      "year":     2017,
+      "link":     "",
+      "topic":    "Logic and Set Theory",
+      "type":     "Submitted Preprints",
+      "_date":    "17.09.30",
+      "abstract": [
+        "The driving motivation to embark in the researches presented in this book has been the following: give a satisfactory sound explanation rooted in mathematical logic for the success forcing axioms have met in settling so many problems formalizable in third order arithmetic. Most of these problems are otherwise undecidable on the basis of ZFC alone. Why forcing axioms have been so successful? We believe that the results of part VI provide a solid mathematical explanation: strong forcing axioms yield as a natural byproduct strong generic absoluteness results for third order arithmetic. This occurs much in the same way as large cardinal axioms do for second order number theory. Therefore large cardinals and forcing axioms transform forcing from a tool to prove independence results into a tool to prove theorems. Moreover the axiom of determinacy AD plays a crucial role in providing a new powerful tool to settle most of the questions on second order arithmetic which are independent from ZFC; likewise Martin’s maximum plays the same role for third order arithmetic as AD does for second order arithmetic. We do not want to dwelve further on this theme here; the motivated reader is referred to [53], the introductory parts of [3, 51, 52], and (for a more technical set of results) to the results of Chapter 8."
+      ]
+    },
+    {
+      "title":    "A Boolean Algebraic Approach to Semiproper Iterations",
+      "authors":  "M. Viale, G. Audrito, S. Steila",
+      "journal":  "arXiv",
+      "year":     2014,
+      "link":     "arXiv:1402.1714",
+      "topic":    "Logic and Set Theory",
+      "type":     "Lecture Notes",
+      "_date":    "14.02.07",
+      "abstract": [
+        "These notes present a compact and self-contained approach to iterated forcing with a particular emphasis on semiproper forcing. We tried to make our presentation accessible to any scholar who has some familiarity with forcing and boolean valued models and full details of all proofs are given.",
+        "We focus our presentation using the boolean algebra language and defining an iteration system as a directed and commutative system of complete and injective homomorphisms between complete and atomless boolean algebras.",
+        "It is well known that the boolean algebra approach to forcing and iterations is fully equivalent to the standard one. While there are several monographs where forcing is introduced by means of boolean valued models, to our knowledge no detailed account of iterated forcing following a boolean algebraic approach has yet appeared. We believe that this different approach is fruitful since the richness of the algebraic language simplifies many calculations and definitions, among which that of RCS-limits. Some of the advantages of this approach have been already outlined by Donder and Fuchs.",
+        "The first part of these notes present the general framework needed to develop the notion of limit of an iterated system of forcings in the boolean algebraic language. The second part contains a proof of the main result of Shelah on semiproper iterations, i.e. that RCS-limit of semiproper iterations are semiproper."
+      ]
+    },
+    {
+      "title":    "An introduction to forcing axioms, SRP and OCA",
+      "authors":  "G. Audrito, G. Carotenuto",
+      "journal":  "arXiv",
+      "year":     2012,
+      "link":     "arXiv:1412.3652",
+      "topic":    "Logic and Set Theory",
+      "type":     "Lecture Notes",
+      "_date":    "12.12.11",
+      "abstract": [
+        "These notes are extracted from the lectures on forcing axioms and applications held by professor Matteo Viale at the University of Turin in the academic year 2011-2012. Our purpose is to give a brief account on forcing axioms with a special focus on some consequences of them (SRP, OCA, PID). These principles were first isolated by Todorčević and interpolate most consequences of MM and PFA, thus providing a useful insight on the combinatorial structure of the theory of forcing axioms.",
+        "In the first part of this notes we will give a brief account on forcing axioms, introducing some equivalent definition by means of generalized stationarity and presenting the consequences of them in terms of generic absoluteness.",
+        "In the second part we will state the strong reflection principle (SRP), prove it under MM and examine its main consequences. This axiom is defined in terms of reflection properties of generalized stationary set.",
+        "In the third part we will state the open coloring axiom (OCA), and provide consistency proofs for some versions of it. This axiom can be seen as a sort of two-dimensional perfect set property, i.e. the basic descriptive set theory result that every analytic set is either countable or it contains a perfect subset.",
+        "In the last part we will explore a notable application of OCA to problems concerning properties of the continuum, in particular the existence of certain kind of gaps in $\\omega^\\omega$."
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title":    "Research assistant on “Formal methods for the Internet of Things”",
+      "subtitle": "Università degli Studi di Torino, 01/04/2018-31/03/2019",
+      "link":     "http://beta.di.unito.it/index.php/english/research/groups/system-modelling-verification-and-reuse/about",
+      "type":     "Position",
+      "_date":    "18.04.01"
+    },
+    {
+      "title":    "Research grant on “Formal methods for the Internet of Things”",
+      "subtitle": "Università degli Studi di Torino, 01/12/2017-31/03/2018",
+      "link":     "http://beta.di.unito.it/index.php/english/research/groups/system-modelling-verification-and-reuse/about",
+      "type":     "Position",
+      "_date":    "17.12.01"
+    },
+    {
+      "title":    "Research assistant on “Formal methods for the Internet of Things”",
+      "subtitle": "Università degli Studi di Torino, 01/01/2016-30/11/2017",
+      "link":     "http://beta.di.unito.it/index.php/english/research/groups/system-modelling-verification-and-reuse/about",
+      "type":     "Position",
+      "_date":    "16.01.01"
+    },
+    {
+      "title":    "Research assistant on “Design and development of algorithms and data structures for compressed data, with applications”",
+      "subtitle": "Università degli Studi di Pisa, 01/01/2015-31/12/2015",
+      "type":     "Position",
+      "_date":    "15.01.01"
+    },
+    {
+      "title":    "Ph.D. in Mathematics",
+      "subtitle": "Università degli Studi di Torino, 01/01/2012-02/03/2016",
+      "text":     ["The thesis develops on two connected topics. Firstly, the definability of generic large cardinal axioms: the novel notion of C-system of filters is introduced, generalizing the standard definitions of extenders and towers and simplifying the classical treatment of the subject. Secondly, how to obtain strong forms of generic absoluteness from forcing axioms of low consistency strength, the novel iterated resurrection axioms."],
+      "link":     "http://logicatorino.altervista.org/indexeng.html",
+      "type":     "Position",
+      "_date":    "12.01.01"
+    },
+    {
+      "title":    "Adjunct Professor for the “Object-Oriented Programming” course, Computer Science major",
+      "subtitle": "Università del Piemonte Orientale, Vercelli, 01/03/2017-31/09/2019",
+      "link":     "https://upobook.uniupo.it/personale/1486",
+      "type":     "Position",
+      "_date":    "17.03.01"
+    },
+    {
+      "title":    "Co-supervisor for the Bachelor thesis of Sergio Bergamini, Computer Science major",
+      "subtitle": "Università degli Studi di Torino, 13/07/2018",
+      "type":     "Role",
+      "_date":    "18.07.13"
+    },
+    {
+      "title":    "Co-supervisor for the Bachelor thesis of Luca Serena, Computer Science major",
+      "subtitle": "Università degli Studi di Torino, 16/10/2017",
+      "type":     "Role",
+      "_date":    "17.10.16"
+    },
+    {
+      "title":    "Teaching assistant “articolo 76” for the ”Informatics” course, Mathematics for Finance and Insurance major",
+      "subtitle": "Università degli Studi di Torino, 01/10/2016-31/01/2017",
+      "type":     "Position",
+      "_date":    "16.10.01"
+    },
+    {
+      "title":    "Scientific Organizer of the ioIT",
+      "subtitle": "1st International Olympiads in Informatics in Teams, Bologna, 17-20/05/2017",
+      "link":     "https://ioi.team/",
+      "type":     "Event",
+      "_date":    "17.05.19"
+    },
+    {
+      "title":    "Team leader of the Italian team",
+      "subtitle": "International Olympiads in Informatics, Tsukuba, Japan, 2018",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2018",
+      "type":     "Event",
+      "_date":    "18.09.01"
+    },
+    {
+      "title":    "Team leader of the Italian team",
+      "subtitle": "International Olympiads in Informatics, Tehran, Iran, 2017",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2017",
+      "type":     "Event",
+      "_date":    "17.08.10"
+    },
+    {
+      "title":    "Team leader of the Italian team",
+      "subtitle": "International Olympiads in Informatics, Kazan, Russia, 2016",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2016",
+      "type":     "Event",
+      "_date":    "16.08.10"
+    },
+    {
+      "title":    "Team leader of the Italian team",
+      "subtitle": "International Olympiads in Informatics, Almaty, Kazakhstan, 2015",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2015",
+      "type":     "Event",
+      "_date":    "15.08.10"
+    },
+    {
+      "title":    "Team leader of the Italian team",
+      "subtitle": "International Olympiads in Informatics, Taipei, Taiwan, 2014",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2014",
+      "type":     "Event",
+      "_date":    "14.08.10"
+    },
+    {
+      "title":    "Team leader of the Italian team",
+      "subtitle": "International Olympiads in Informatics, Brisbane, Australia, 2013",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2013",
+      "type":     "Event",
+      "_date":    "13.08.10"
+    },
+    {
+      "title":    "Local Organization Co-Chair",
+      "subtitle": "iFM 2017, Torino",
+      "link":     "http://ifm2017.di.unito.it/",
+      "type":     "Event",
+      "_date":    "17.09.17"
+    },
+    {
+      "title":    "Artifact Evaluation Committee member",
+      "subtitle": "OOPSLA track, SPLASH 2018, Boston, USA",
+      "link":     "https://2018.splashcon.org/track/splash-2018-OOPSLA-Artifacts",
+      "type":     "Event",
+      "_date":    "18.11.04"
+    },
+    {
+      "title":    "Artifact Evaluation Committee member",
+      "subtitle": "OOPSLA track, SPLASH 2017, Vancouver, Canada",
+      "link":     "https://2017.splashcon.org/track/splash-2017-OOPSLA-Artifacts",
+      "type":     "Event",
+      "_date":    "17.10.25"
+    },
+    {
+      "title":    "Program Committe member",
+      "subtitle": "FAS* Posters and Demos 2018, Tucson, USA",
+      "link":     "https://saso2018.fbk.eu/",
+      "type":     "Event",
+      "_date":    "18.09.03"
+    },
+    {
+      "title":    "Program Committe member",
+      "subtitle": "ALP4IoT workshop, iFM 2017, Torino",
+      "link":     "http://apice.unibo.it/xwiki/bin/view/ALP4IoT2016/WebHome",
+      "type":     "Event",
+      "_date":    "17.09.17"
+    },
+    {
+      "title":    "Program Committe member",
+      "subtitle": "eCAS workshop, SASO 2017 conference, Tucson, USA",
+      "link":     "http://apice.unibo.it/xwiki/bin/view/ECAS2017/",
+      "type":     "Event",
+      "_date":    "17.09.22"
+    },
+    {
+      "title":    "Invited talk \"Memoization of Parity Games: a practical proposal\"",
+      "subtitle": "Seminari del Dipartimento di Informatica, Verona, Italy",
+      "link":     "http://www.di.univr.it/?ent=seminario&id=3956",
+      "type":     "Event",
+      "_date":    "17.04.19"
+    },
+    {
+      "title":    "Best Paper of COORDINATION",
+      "subtitle": "Optimally-Self-Healing Distributed Gradient Structures through Bounded Information Speed, 20/06/2017",
+      "link":     "http://2017.discotec.org/program#joint-session-1",
+      "type":     "Prize",
+      "_date":    "17.06.20"
+    },
+    {
+      "title":    "First place in the national competition for INdAM master’s degree scholarships",
+      "subtitle": "Istituto Nazionale di Alta Matematica, 26/03/2009",
+      "link":     "http://www.altamatematica.it/sites/default/files/graduatoriaspecialistica08-09.pdf",
+      "type":     "Prize",
+      "_date":    "09.03.26"
+    },
+    {
+      "title":    "First place in the national competition for INdAM bachelor’s degree scholarships",
+      "subtitle": "Istituto Nazionale di Alta Matematica, 14/10/2005",
+      "link":     "http://www.altamatematica.it/sites/default/files/graduatoriamerito05-06.pdf",
+      "type":     "Prize",
+      "_date":    "05.10.14"
+    },
+    {
+      "title":    "Bronze medal at the IOI",
+      "subtitle": "International Olympiads in Informatics, Nowi Sącz, Poland, 2005",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2005",
+      "type":     "Prize",
+      "_date":    "05.08.20"
+    },
+    {
+      "title":    "Bronze medal at the IOI",
+      "subtitle": "International Olympiads in Informatics, Athens, Greece, 2004",
+      "link":     "http://stats.ioinformatics.org/delegations/ITA/2004",
+      "type":     "Prize",
+      "_date":    "04.08.20"
+    }
+  ],
+  "teaching": [
+    {
+      "title": "Courses",
+      "text": [
+        "<ul><li>2018/19. <a href=\"http://of.uniupo.it/2018/1932/guida.html#87583\" target=\"_blank\"><i>Object Oriented Programming.</i></a> Bachelor in Computer Science, Università del Piemonte Orientale, Vercelli.</li><li>2017/18. <a href=\"http://of.uniupo.it/2017/1932/guida.html#74957\" target=\"_blank\"><i>Object Oriented Programming.</i></a> Bachelor in Computer Science, Università del Piemonte Orientale, Vercelli.</li><li>2016/17. <a href=\"http://of.uniupo.it/2016/1932/guida.html#73620\" target=\"_blank\"><i>Object Oriented Programming.</i></a> Bachelor in Computer Science, Università del Piemonte Orientale, Vercelli.</li><li>2016/17. <a href=\"http://matematicafinanza.campusnet.unito.it/do/storicocorsi.pl/Show?_id=buwb_1617\" target=\"_blank\"><i>Informatica</i></a> (teaching assistant). Bachelor in Mathematics for Finance and Insurance, Università di Torino.</li></ul>",
+        "Further information available <a href=\"https://upobook.uniupo.it/personale/1486\" target=\"_blank\">here.</a>"
+      ]
+    },
+    {
+      "title": "Olympiads in Informatics",
+      "text": [
+        "<b>International Olympiads in Informatics in Teams (ioIT).</b><br>Check out the <a href=\"https://ioi.team/\" target=\"_blank\">international</a> and <a href=\"http://www.olimpiadi-informatica-squadre-italia.it/\" target=\"_blank\">italian</a> websites.<br>Live announcements on upcoming events are available in <a href=\"http://codeforces.com/blog/harniver\" target=\"_blank\">my codeforces blog</a>.",
+        "<b>Olimpiadi Italiane di Informatica (OII).</b><br>Check out the <a href=\"https://training.olinfo.it\" target=\"_blank\">training</a> and <a href=\"https://www.olimpiadi-informatica.it/\" target=\"_blank\">istitutional</a> websites."
+      ]
+    },
+    {
+      "title": "Thesis Proposals",
+      "text": ["<ul><li>Completed:<ul><li>Luca Serena. <a href=\"https://github.com/luca-Serena/tesi-strutture-dati-compressione\" target=\"_blank\"><i>Strutture dati compresse: implementazione grafica di un Wavelet Tree in Java.</i></a><br>Bachelor in Computer Science, Università di Torino, 16/10/2017.</li></ul></li><li>Ongoing:<ul><li>Sergio Bergamini. <a href=\"https://bitbucket.org/gaudrito/audrito-bergamini-summarising\" target=\"_blank\"><i>Distributed Data Collection in Situated Networks.</i></a><br>Bachelor in Computer Science, Università di Torino, 13/07/2018.</li></ul></li><li>Available:<ul><li><a href=\"https://drive.google.com/file/d/0B8V0DWzHPCYeN3o4c2VTRmVvNDQ/view\" target=\"_blank\">Efficient simulation of aggregate computing algorithms.</a></li></li><li><a href=\"https://drive.google.com/file/d/0B8V0DWzHPCYeSmtucnJDX01ZeEU/view\" target=\"_blank\">Algorithmic problems for aggregate computing.</a></li></li><li><a href=\"https://drive.google.com/file/d/0B8V0DWzHPCYeVTRzcTJiR2NwUXM/view\" target=\"_blank\">Accelerating aggregate computing algorithms.</a></li></li><li><a href=\"https://drive.google.com/file/d/0B8V0DWzHPCYeNXNmWkpPQXVuTU0/view\" target=\"_blank\">Automatic measurement of sound qualities and dissonance.</a></li></li><li><a href=\"https://drive.google.com/file/d/0B8V0DWzHPCYeU0E2QVFPa1BoYkE/view\" target=\"_blank\">Optimizing compression of wavelet trees.</a></li></ul></li></ul>"]
+    }
+  ]
+}

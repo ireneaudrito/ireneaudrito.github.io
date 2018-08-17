@@ -1,0 +1,117 @@
+{
+  "address": [
+    "Consulente,",
+    "Torino, Italy"
+  ],
+
+   "home": "Dal 2002 al 2011 ho lavorato nel settore IT dapprima come programmatrice Java, poi come Team Leader ed infine, negli ultimi anni di esperienza, mi sono dedicata alla docenza. <br/>Nel 2011 ho abbandonato il mondo della consulenza informatica per dedicarmi a tempo pieno alla didattica, benchè la passione per questo settore continuo ancora oggi a coltivarla nel tempo libero.",
+
+
+  "tools": ["Linguaggi e Tecnologie: <ul type=“circle”><li>J2SE,J2EE, EJB, J2ME, JMI, XML SQL</li><li>Servlet, JSP, JSF, HTML, DHTML, CSS, javascript, jquery</li></ul> Framework e Strumenti: <ul type=“circle”><li>Struts 2.x, Struts 1.x, Hibernate, JPA, Spring, Stripes</li><li>JUnit, POI, iText, Ant, Maven, Selenium, Fitnesse</li></ul> Linguaggi di Modellazione: <ul type=“circle”><li>UML</li></ul>"," Protocolli: <ul type=“circle”><li>http/S, JDBC, SOAP (WSDL), TCP/IP, SNMP</li></ul>Database: <ul type=“circle”><li>MIB, Informix (IUSS), Oracle 9i, Oracole10i, SQLServer, MySQL, PostreSQL</li></ul>Source Code Control: <ul type=“circle”><li>CVS, SVN, Git</li></ul>Web-Server/Servlet Container: <ul type=“circle”><li>TOMCAT, Bea Weblogic, IBM Websphere</li></ul>Processi: <ul type=“circle”><li>Waterflow, RUP, Scrum, Extreme Programming, Test-Driven Development</li></ul>"],
+
+"esperience": [
+    {
+      "title":    "Docenza in un corso Java per neo laureati",
+      "subtitle": "Presso CSP",
+      "type":     "Event",
+      "_date":    "11.01.01"
+    },
+    {
+      "title":    "Realizzazione di GitEnt, un prodotto rivolto alla gestione del codice sorgente",
+      "subtitle": "Ho collavorato per la realizzazione insieme ad un Team di sviluppo di Londra",
+      "type":     "Event",
+      "_date":    "11.01.01"
+    },
+    {
+      "title":    "Docenza in un corso Ajax rivolto a programmatori esperti",
+      "subtitle": "Presso CSP",
+      "type":     "Event",
+      "_date":    "10.01.01"
+    },
+    {
+      "title":    "Docenza in un corso SCM e ANT",
+      "subtitle": "presso CSP",
+      "type":     "Event",
+      "_date":    "10.01.01"
+    },
+    {
+      "title":    "Docenza in un corso Java rivolto a neo laureati",
+      "subtitle": "Presso ALFASOFT",
+      "type":     "Event",
+      "_date":    "10.01.01"
+   },
+    {
+      "title":    "Realizzazione di portale volto alla gestione delle Spedizioni",
+      "subtitle": "Gruppo Fiat",
+      "type":     "Event",
+      "_date":    "10.01.01"
+    },
+    {
+      "title":    "Manutenzione di un applicativo rivolto alla gestione delle Tasse di Concessione Regionale",
+      "subtitle": "Presso CSP",
+      "type":     "Event",
+      "_date":    "09.01.01"
+    },
+    {
+      "title":    "Docenza in un corso SPRING rivolto a programmatori JAVA esperti",
+      "subtitle": "presso Fondazione Clerici",
+      "type":     "Event",
+      "_date":    "09.01.01"
+    },
+    {
+      "title":    "Coordinamento di un team di sviluppo per la realizzazione di un applicativo volto alla gestione documentale.",
+      "subtitle": "Presso CSP",
+      "type":     "Event",
+      "_date":    "08.01.01"
+    },
+    {
+      "title":    "Docenza in un corso SPRING rivolto a programmatori JAVA esperti",
+      "subtitle": "Fondazione Clerici",
+      "type":     "Event",
+      "_date":    "08.01.01"
+    },
+    {
+      "title":    "Docenza in un corso Hibernate rivolto a programmatori JAVA esperti",
+      "subtitle": "Fondazione Clerici",
+      "type":     "Event",
+      "_date":    "08.01.01"
+    },
+    {
+      "title":    "Docenza in un corso JAVA per principianti",
+      "subtitle": "presso CSP",
+      "type":     "Event",
+      "_date":    "07.01.01"
+    },
+    {
+      "title":    "Docenza in un corso Struts 1.x rivolto a programmatori JAVA esperti.",
+      "subtitle": "Presso CSP",
+      "type":     "Event",
+      "_date":    "07.01.01"
+    },
+    {
+      "title":    "Coordinamento di un Team di sviluppo per la realizzazione di un applicativo web in qualità di Team Leader",
+      "subtitle": "Banca Intesa",
+      "type":     "Event",
+      "_date":    "06.01.01"
+    },
+    {
+      "title":    "Progettazione e sviluppo di un applicativo web per il comune di Torino. in qualità di Team Leader",
+      "subtitle": "CSI Piemonte",
+      "type":     "Event",
+      "_date":    "05.01.01"
+    },
+    {
+      "title":    "Analisi e Sviluppo di un'applicazioni web per la gestione di un apparato di rete",
+      "subtitle": "presso Fondazione Clerici",
+      "type":     "Telecom Lab",
+      "_date":    "04.01.01"
+    },
+    {
+      "title":    "Analisi e Sviluppo di un'applicazione web",
+      "subtitle": "RAI e CRIT",
+      "type":     "Event",
+      "_date":    "03.01.01"
+    }
+
+  ]
+}
