@@ -8,12 +8,48 @@
    "home": "Nel 2007 mi avvicino al mondo della divulgazione scientifica a seguito di un'iniziativa intrapresa da mio padre. Lui, insegnante in pensione, decide con un team di colleghi di provare a realizzare un evento su Torino: <i>Ottobre Scienza</i>. Questo evento nasce per essere una biennale che si terrà ad Ottobre con la collaborazione di diversi Enti ed Università del territorio Piemontese con l'intento di raccogliere il ricco patrimonio di idee presente negli istituti superiori e condividerlo, promuovendo simultaneamente la collaborazione tra insegnanti di diverse aree disciplinari.<br/> Questa iniziativa sfociò nella realizzazione di sette mostre/laboratori, spettacoli teatrali e conferenze. In questa occasione il mio ruolo fù quello di gestire l'aspetto organizzativo dell'evento e gli animatori scientifici. Fù in questa occasione che per la prima volta mi occupai di organizzazione di eventi e di divulgazione scientifica. <br/>L'attività di Ottobre Scienza continuò fino al 2014 quando, per mancanza di finanziamenti, le iniziative scemarono.<br/>Due anni più tardi decido di provare a lanciarmi nuovamente nelle attività di divulgazione scientifica, ripartendo dal ricco patrimonio sperimentale di Ottobre Scienza e dando vita al progetto <i>Laboratori Itineranti</i>, a cui hanno fatto seguito altre attività che comportarono l'organizzazione di eventi sia sul territorio Ligure che Piemontese.",
 
 
-  "contents": [
+  "laboratori": ["Il progetto <i><b>Laboratori Itineranti</b></i>, proposto dalla Casa degli Insegnanti e dal Cesedi consiste in quattro laboratori allestiti per essere ospitati dalle scuole che ne fanno richiesta.<br/> I laboratori che si sono spostati per due anni scolastici consecutivi attraverso il Piemonte sono una proposta di utilizzo concreto di metodologie didattiche innovative, realizzata mediante esperimenti interdisciplinari dell'asse scientifico-tecnologico affidati ad un team di peer-educator della scuola ospitante, opportunamente formati.<br/><br/> Mi sono occupata di progettare, a partire dal materiale di Ottobre Scienza, i seguenti laboratori:<ul tyle'circle'><li><b>Meccanica:</b> la cinematica del corpo puntiforme, la dinamica e la statica del corpo rigido e del corpo puntiforme e cenni alla dinamica dei fluidi.</li><li><b>Energia:</b> caratteristiche dell'energia, energia meccanica, termica, elettromagnetica.</li><li><b>Ottica:</b> ottica geometrica e fisica, colorimetria, anatomia dell’occhio e percezione dei colori.</li><li><b>Bosco:</b> analisi chimica e fisica dei terreni, dendrologia, spettroscopia</li></ul><br/>Il progetto è stato strutturato mediante alcune giornate di formazione introduttive, rivolte ai docenti, a cui ha fatto seguito l'Installazione del laboratorio nella scuola ospitante e la formazione dei peer-educator. Sono inoltre state fornite, ai docenti referenti, schede di lavoro, prove di valutazione delle competenze e questionari di monitoraggio a corredo del laboratori.<br/><br/>Si può ripercorrere l'attività svolta nel 2016 e nel 2017 visitando il  <a href='https://www.youtube.com/channel/UCC9LLYXFS2JLTvJF5dNf-DA'  target=\"_blank\"><i>Canale YouTube di Ottobre Scienza</i><a/> "],
+
+
+  "eventi": [
+    
     {
-      "title": "Work in Progress",
+      "title":    "Ottobre Scienza 2007 - Presso Museo di Scienze Naturali di Torino",
+      "subtitle": "Evento della durata di due settimana dislocato su più location con sette mostre-laboratori, uno spettacolo teatrale e tre conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
+      "type":     "Event",
+      "_date":    "07.01.01"
+    },
+    {
+      "title":    "Ottobre Scienza 2009 - Presso Museo di Scienze Naturali di Torino",
+      "subtitle": "Evento della durata di due settimana che presentava sette mostre-laboratori e due conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
+      "type":     "Event",
+      "_date":    "09.01.01"
+    },
+    {
+      "title":    "Ottobre Scienza 2011 - Presso Museo di Scienze Naturali di Torino",
+      "subtitle": "Evento della durata di due settimana che presentava sette mostre-laboratori e due conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
+      "type":     "Event",
+      "_date":    "11.01.01"
+    },
+    {
+      "title":    "Ottobre Scienza 2014 - Presso Museo di Scienze Naturali di Torino",
+      "subtitle": "Evento della durata di due settimana dislocato su più location costituito da sette mostre-laboratori.",
+      "type":     "Event",
+      "_date":    "14.01.01"
+    },
+    {
+      "title":    "Settimana della Scienza - Presso il MUDA di Albissola Marina",
+      "subtitle": "Un laboratorio sul tema del riciclo e della plastica nei mari rivolto alla cittadinanza e alle scuole del territorio della durata di una settimana",
+      "type":     "Event",
+      "_date":    "18.01.01"
+   }],
+
+    "mostre": [
+    {
+      "title": "Ambiente & Scienza",
       "text": "...",
       "_template": "section",
       "items": []
-    }
-  ]
+    }]
+
 }
