@@ -189,12 +189,12 @@ app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $l
       topics page
     ------------------------------*/
     title:    "Eventi Organizzati",
-    painter:  function(db) {
+    painter:  function(db) {alert(db.eventi[0].title);
                 let content = partitionDates(db.eventi, function(x) {
                   return x.type == "Event";
                 });
                 addByKeyword(content, db.eventi, false, formatOther, function(x) {
-                  return x.type != "Event" ? [] : [getDate(x), getYear(x)];
+                  return x.type != "Event" ? [db.eventi[0].title] : [getDate(x), getYear(x)];
                 });
                 return content;
               }

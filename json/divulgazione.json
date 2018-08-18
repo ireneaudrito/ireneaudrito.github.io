@@ -12,7 +12,12 @@
 
 
   "eventi": [
-    
+    {
+      "title":    "ciccio",
+      "subtitle": ".",
+      "type":     "text",
+      "_date":    "07.01.01"
+    },
     {
       "title":    "Ottobre Scienza 2007 - Presso Museo di Scienze Naturali di Torino",
       "subtitle": "Evento della durata di due settimana dislocato su più location con sette mostre-laboratori, uno spettacolo teatrale e tre conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
