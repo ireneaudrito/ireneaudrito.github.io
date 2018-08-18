@@ -1,4 +1,4 @@
-app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $location, $http, $sce) { 
+app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $location, $http, $sce) {
   /*------------------------------
     default values
   ------------------------------*/
@@ -7,20 +7,33 @@ app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $l
     theme:  "divulgazione",    // resources theme and overall title
     color:  "#82C168",  // theme color
   };
-  let pages = [{
+  let pages = [{ 
     /*------------------------------
       home page
     ------------------------------*/
     title:    "Home",
-    painter:  function(db) {
-                return db.contents;
+    teaser:   true,
+    painter:  function(db) { 
+                return [
+                  {
+                    title:      "",
+                    items: [{
+                      title:      "",
+                      main:       db.home,
+                      _template:  "box",
+                      _color:     "#fff",
+                      _show:      false
+                    }],
+                    _template:  "section"
+                  }
+                ];
               }
   }, {
     /*------------------------------
       topics page
     ------------------------------*/
     title:    "Work in Progress",
-    painter:  function(db) {
+    painter:  function(db) { 
                 return db.contents;
               }
   }];
