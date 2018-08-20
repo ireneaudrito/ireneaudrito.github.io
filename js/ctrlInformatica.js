@@ -138,7 +138,7 @@ app.controller('informaticaCtrl', function($scope, $rootScope, $routeParams, $lo
     default values
   ------------------------------*/
   let def = {
-    nphoto: 3,          // number of photos
+    nphoto: 1,          // number of photos
     theme:  "informatica",  // resources theme and overall title
     color:  "#ffbc40",  // theme color
   };

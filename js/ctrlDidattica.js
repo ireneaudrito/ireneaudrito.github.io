@@ -135,7 +135,7 @@ app.controller('didatticaCtrl', function($scope, $rootScope, $routeParams, $loca
     default values
   ------------------------------*/
   let def = {
-    nphoto: 2,          // number of photos
+    nphoto: 1,          // number of photos
     theme:  "didattica", // resources theme and overall title
     color:  "#009bd6",  // theme color
     teaser: false,      // if box teasers are present

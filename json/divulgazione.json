@@ -13,48 +13,60 @@
 
   "eventi": [
     {
-      "title":    "ciccio",
+      "title":    "",
       "subtitle": ".",
       "type":     "text",
       "_date":    "07.01.01"
     },
     {
       "title":    "Ottobre Scienza 2007 - Presso Museo di Scienze Naturali di Torino",
-      "subtitle": "Evento della durata di due settimana dislocato su più location con sette mostre-laboratori, uno spettacolo teatrale e tre conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
+      "subtitle": "Evento della durata di due settimana dislocato su più location con sette mostre-laboratori, uno spettacolo teatrale e tre conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza. Mi sono occupata di tutto l'aspetto organizzativo dell'evento dalla comunicazione stampa e in rete, alla gestione degli animatori",
       "type":     "Event",
       "_date":    "07.01.01"
     },
     {
       "title":    "Ottobre Scienza 2009 - Presso Museo di Scienze Naturali di Torino",
-      "subtitle": "Evento della durata di due settimana che presentava sette mostre-laboratori e due conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
+      "subtitle": "Evento della durata di due settimana che presentava sette mostre-laboratori e due conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza. Mi sono occupata di tutto l'aspetto organizzativo dell'evento dalla comunicazione stampa e in rete, alla gestione degli animatori",
       "type":     "Event",
       "_date":    "09.01.01"
     },
     {
       "title":    "Ottobre Scienza 2011 - Presso Museo di Scienze Naturali di Torino",
-      "subtitle": "Evento della durata di due settimana che presentava sette mostre-laboratori e due conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza.",
+      "subtitle": "Evento della durata di due settimana che presentava sette mostre-laboratori e due conferenze. L'evento era rivolto sia alle scuole di ogni ordine e grado che alla cittadinanza. Mi sono occupata di tutto l'aspetto organizzativo dell'evento dalla comunicazione stampa e in rete, alla gestione degli animatori",
       "type":     "Event",
       "_date":    "11.01.01"
     },
     {
       "title":    "Ottobre Scienza 2014 - Presso Museo di Scienze Naturali di Torino",
-      "subtitle": "Evento della durata di due settimana dislocato su più location costituito da sette mostre-laboratori.",
+      "subtitle": "Evento della durata di due settimana dislocato su più location costituito da sette mostre-laboratori rivolti sia alla cittadinanza che alle scuole del territorio. Mi sono occupata di tutto l'aspetto organizzativo dell'evento dalla comunicazione stampa e in rete, alla gestione e formazione degli animatori",
       "type":     "Event",
       "_date":    "14.01.01"
     },
     {
       "title":    "Settimana della Scienza - Presso il MUDA di Albissola Marina",
-      "subtitle": "Un laboratorio sul tema del riciclo e della plastica nei mari rivolto alla cittadinanza e alle scuole del territorio della durata di una settimana",
+      "subtitle": "Un laboratorio sul tema del riciclo e della plastica nei mari rivolto alla cittadinanza e alle scuole del territorio della durata di una settimana la cui animazione è stata affidata agli studenti dei Licei di Savona in Alternanza Scuola-Lavoro. Mi sono occupata dell'ideazione del laboratorio, dell'organizzazione dell'evento, e di gestire la collaborazione tra i Licei e il Comune di Albissola Marina",
       "type":     "Event",
       "_date":    "18.01.01"
    }],
 
     "mostre": [
     {
-      "title": "Ambiente & Scienza",
-      "text": "...",
-      "_template": "section",
-      "items": []
+      "title": "Festival della Scienza di Genova - Mostra dalla Terra al Sole",
+      "subtitle": "Un laboratorio di fisica con tematiche di ottica, astronomia e astrofisica. Mi sono occupata dell'ideazione del laboratorio, dell'organizzazione dell'evento, e di gestire la collaborazione tra i Licei e il Comune di Albissola Marina",
+      "type":     "Event",
+      "_date":    "12.01.01"
+   },
+   {
+      "title": "Le Piazze della Scienza",
+      "subtitle": "Un evento di divulgazione scientifica di cui mi sono occupata dell'organizzazione della giornata che si è svolta nel comune di Pinerolo e dell'ideazione di uno degli stand espositivi.",
+      "type":     "Event",
+      "_date":    "12.01.01"
+    },
+    {
+      "title": "Festival dell'innovazione e della scienza di Settimo Torinese - Laboratorio Un Bidone di Energia",
+      "subtitle": "Un laboratorio sulla problematica dei rifiuti e la criticità della loro gestione affrontata sotto l'aspetto scientifico. Mi sono occupata dell'ideazione del laboratorio e della gestione e formazione degli animatori",
+      "type":     "Event",
+      "_date":    "17.01.01"
     }]
 
 }

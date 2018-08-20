@@ -139,7 +139,7 @@ app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $l
     default values
   ------------------------------*/
   let def = {
-    nphoto: 2,          // number of photos
+    nphoto: 1,          // number of photos
     theme:  "divulgazione",    // resources theme and overall title
     color:  "#82C168",  // theme color
   };
@@ -189,7 +189,7 @@ app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $l
       topics page
     ------------------------------*/
     title:    "Eventi Organizzati",
-    painter:  function(db) {alert(db.eventi[0].title);
+    painter:  function(db) {
                 let content = partitionDates(db.eventi, function(x) {
                   return x.type == "Event";
                 });
@@ -204,7 +204,13 @@ app.controller('divulgazioneCtrl', function($scope, $rootScope, $routeParams, $l
     ------------------------------*/
     title:    "Partecipazione a Eventi",
     painter:  function(db) { 
-                return db.mostre;
+	        let content = partitionDates(db.mostre, function(x) {
+                  return x.type == "Event";
+                });
+addByKeyword(content, db.mostre, false, formatOther, function(x) {
+                  return x.type != "Event" ? [db.mostre[0].title] : [getDate(x), getYear(x)];
+                });              
+		return content;
               }
   }];
   $rootScope.pageSet($scope, $location, $http, $sce, $routeParams.page, def, pages);
